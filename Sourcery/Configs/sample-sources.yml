@@ -1,0 +1,6 @@
+sources:
+    - ../../Foo
+templates:
+    - ../Templates/Stats.stencil
+output: ../../Generated/
+verbose: true

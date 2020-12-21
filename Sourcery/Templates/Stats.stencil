@@ -1,0 +1,11 @@
+// Found {{ types.all.count }} Types
+{% for type in types.all %}
+
+// - {{ type.name }} ({{ type.globalName }})
+//     Variables for Type {{ type.name }}:
+{%     for variable in type.variables %}
+//     - {{ variable.name }}:
+//       - typeName: {{ variable.typeName }}
+//       - type: {{ variable.type.name }}
+{%     endfor %}
+{% endfor %}

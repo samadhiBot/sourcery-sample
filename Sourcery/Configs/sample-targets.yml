@@ -1,0 +1,8 @@
+project:
+  file: ../../Foo/Foo.xcodeproj
+  target:
+    name: Foo
+templates:
+    - ../Templates/Stats.stencil
+output: ../../Generated/
+verbose: true
